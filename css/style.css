@@ -2,13 +2,14 @@ body{
   background-color: white;
 }
 main > img{
-  margin: 15px 0px;
+  margin-bottom: 30px;
 }
 footer, header{
   background-color: #333;
 }
 header{
   height: 100px;
+  margin-bottom: 30px;
 }
 nav, main{
   width: 960px;
@@ -17,12 +18,59 @@ nav, main{
 nav{
   color: #CCC;
 }
-header img{
-  margin: 15px 0px;
-  float: left;
-}
 nav ul li{
   display: inline-block;
   margin-top: 41px;
   margin-left: 60px
+}
+header img{
+  margin: 15px 0px;
+  float: left;
+}
+#sub-banners{
+  display: block;
+  margin-bottom: 30px;
+  height: 375px;
+}
+#sub-banners img{
+  float: left;
+  display: block;
+}
+#sub-banners img:first-child{
+  margin-right: 30px;
+  margin-left: 0px;
+}
+#sub-banners img:last-child{
+  margin-left: 30px;
+  margin-right: 0px;
+}
+#featured{
+  height: 400px;
+  margin-bottom: 30px;
+}
+h2{
+  font-size: large;
+  margin-bottom: 0.7em;
+}
+article{
+  height: 400px;
+}
+article p{
+  overflow: scroll;
+  height: 350px;
+}
+#featured img{
+  float: left;
+  margin-right: 30px;
+}
+#featured button{
+  background-color: #CCC;
+  transition: background-color .35s;
+}
+#featured button:hover{
+  background-color: white;
+}
+footer{
+  height: 100px;
+  width: 100%;
 }
